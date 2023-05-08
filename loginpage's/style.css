@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: blueviolet;
+}
+form {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 26px rgb(0 0 0 / 50%);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box {
+    background-color: blueviolet;
+    width: 290px;
+    height: 48px;
+    margin: 0px 5px 5px 5px; 
+    border-radius: 10px;
+}
+input {
+    display: block;
+    background-color: rgb(66, 183, 255);
+    width: 240px;
+    height: 32px;
+    margin: auto;
+    border: none;
+    margin: -20.5px 0px 0px 45px;
+    border-radius: 10px;
+    text-indent: 5px;
+}
+input:hover {
+    background-color: lightgrey;
+    transition: 0.7s;
+}
+p {
+    text-align: justify;
+    padding: 10px;
+}
+i {
+    position: relative;
+    top: 25%;
+    left: 3%;
+}
+.saida {
+    border: 1px solid lightgrey;
+    height: 40px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
+}
+.saida:hover {
+    border: 1px solid lightskyblue
+}
+#esq {
+    background-color: lightgrey;
+    border: 1px solid lightskyblue;
+    margin: auto;
+}
+#esq:hover {
+    background-color: lightskyblue;
+    border: 1px solid lightgrey;
+}
+.div {
+    margin: 10px 5px;
+}
